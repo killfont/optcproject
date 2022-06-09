@@ -1,0 +1,200 @@
+/******************** Fonts ********************/
+
+@font-face {
+    font-family: pirate;
+    src: url("../fonts/pirate1.ttf");
+}
+
+
+/******************** HTML ********************/
+
+
+
+/******************** Body ********************/
+
+body {
+    background-image: url("../image/bg_1.png");
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+* p {
+    font-family: pirate;
+}
+
+
+/******************** Header ********************/
+
+header .logo {
+    width: 210px;
+    height: 78px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.banner-top {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+/******************** Navigation ********************/
+
+nav .nav_img {
+    width: 101px;
+    height: 37px;
+}
+
+/******************** Main ********************/
+
+
+
+
+/******************** Section Actualités ********************/
+
+#carouselExampleIndicators {
+    box-shadow: 0px 15px 10px -5px rgb(0, 0, 0);
+}
+
+.logo_actu {
+    width: 200px !important;
+}
+
+.logo_actu {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.btn_plus {
+    width: 23%;
+    display: block;
+    margin: auto;
+}
+
+.carton {
+    background-image: url("../image/carton.png");
+}
+
+.carton p {
+    backdrop-filter: blur(1px);
+    border-radius: 75px;
+}
+
+
+/******************** Section Vidéos ********************/
+
+.video {
+    background-image: url("../image/bg_2.jpg");
+    background-size: cover;
+    background-position: 75%;
+}
+
+video {
+    box-shadow: 0px 15px 10px -5px rgb(0, 0, 0);
+}
+
+/* Fondu (en hiver au coin du feu) */
+
+.d1 {
+    width: 240px;
+    height: 192px;
+    box-shadow: 0px 15px 10px -5px rgb(0, 0, 0);
+    background-size: contain;
+    animation: fondu 30s ease-in-out infinite both;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.conteneur {
+    max-width: 575px;
+    margin: 50px auto;
+
+}
+
+.d1:hover,
+.d2:hover {
+    animation-play-state: paused;
+
+}
+
+@keyframes fondu {
+    0% {
+        background-image: url("../image/luffy.png");
+    }
+
+    10% {
+        background-image: url("../image/zoro.png");
+    }
+
+    20% {
+        background-image: url("../image/usopp.webp");
+    }
+
+    30% {
+        background-image: url("../image/sanji.webp");
+    }
+
+    40% {
+        background-image: url("../image/nami.jpg");
+    }
+
+    50% {
+        background-image: url("../image/chopper.webp");
+    }
+
+    60% {
+        background-image: url("../image/robin.jpg");
+    }
+
+    70% {
+        background-image: url("../image/franky.webp");
+    }
+
+    80% {
+        background-image: url("../image/brook.webp");
+    }
+
+    90% {
+        background-image: url("../image/jinbe.webp");
+    }
+
+    100% {
+        background-image: url("../image/carot.webp");
+    }
+}
+
+
+/******************** Section Le jeu ********************/
+
+.game {
+    background-image: url("../image/cbleu.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.disp img {
+    width: 100px;
+}
+
+.logo_game {
+    width: 300px;
+}
+
+
+/******************** Section Footer ********************/
+.copy{
+    position: relative;
+  
+    margin: auto;
+}
+.banner-bot {
+    width: 100%;   
+    
+   bottom: 0;
+
+}
